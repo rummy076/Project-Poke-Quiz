@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Diagnostics.Contracts;
 
 public class healthManager : MonoBehaviour
 {
     public Slider pSlide;
     public Slider eSlide;
 
-    public Text scoreText;
-    
+    public GameObject playerGO;
+    public GameObject enemyGO;
 
     public void Start()
     {
@@ -30,10 +31,14 @@ public class healthManager : MonoBehaviour
 
     public void Correct_Attack()
     {
-        eSlide.value = eSlide.value > 0 ? eSlide.value - 20 : 0;
+        eSlide.value = eSlide.value > 0 ? eSlide.value - 10 : 0;
+        Animator eAnim = enemyGO.GetComponent<Animator>();
+        eAnim.Play("Enemy Hurt");
     }
     public void Incorrect_LossHP()
     {
         pSlide.value = pSlide.value > 0 ? pSlide.value - 20 : 0;
+        Animator pAnim = playerGO.GetComponent<Animator>();
+        pAnim.Play("Player Hurt");
     }
 }

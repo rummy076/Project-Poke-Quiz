@@ -1522,7 +1522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Opposition Pikachu
-  unitLvl: 21
+  unitLvl: 25
   unitDamage: 20
 --- !u!95 &1030161277
 Animator:
@@ -1827,7 +1827,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pSlide: {fileID: 1926052181}
   eSlide: {fileID: 801709020}
-  scoreText: {fileID: 0}
+  playerGO: {fileID: 1250705681}
+  enemyGO: {fileID: 1030161273}
 --- !u!1 &1250705681
 GameObject:
   m_ObjectHideFlags: 0
