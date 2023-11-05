@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac387e1935faa943b0b68cd1bd40528, type: 3}
+  m_Name: Questions
+  m_EditorClassIdentifier: 
+  currentQuestion: 1
+  qList:
+  - question: Sharks are mammals.
+    isCorrect: 0
+    questioned: 0
+  - question: Sea otters have a favorite rock they use to break open food.
+    isCorrect: 1
+    questioned: 0
+  - question: The hummingbird egg is the world's smallest bird egg.
+    isCorrect: 1
+    questioned: 0
+  - question: New York City is composed of between 36 and 42 islands.
+    isCorrect: 1
+    questioned: 0
+  - question: South Africa has one capital.
+    isCorrect: 0
+    questioned: 0
+  - question: The Atlantic Ocean is the biggest ocean on Earth.
+    isCorrect: 0
+    questioned: 0
+  - question: Mount Everest is the tallest mountain in the world.
+    isCorrect: 1
+    questioned: 0
+  - question: You can find the 'Desert of Death' in California.
+    isCorrect: 0
+    questioned: 0
+  - question: The human body has four lungs.
+    isCorrect: 0
+    questioned: 0
+  - question: The average human sneeze can be clocked at 100 miles an hour.
+    isCorrect: 1
+    questioned: 0
+  - question: Infants have more bones than adults.
+    isCorrect: 1
+    questioned: 0
+  - question: The blue whale is the biggest animal to have ever lived.
+    isCorrect: 1
+    questioned: 0
